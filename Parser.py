@@ -138,12 +138,6 @@ def p_comp(p):
     '''
     print("comp statement valid!")
 
-# def p_loop_statement(p):
-#     '''
-#     loop_statement : CICLO expression CICLO expression
-#     '''
-#     print("Loop statement valid!")
-
 # Definir la regla para manejar errores sintácticos
 
 def p_error(p):
